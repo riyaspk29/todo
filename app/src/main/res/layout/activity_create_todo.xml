@@ -15,6 +15,7 @@
         tools:context=".todo.create.CreateTodoActivity">
 
         <EditText
+            android:hint="@string/write_here"
             android:text="@={createTodoViewModel.taskEditTextData}"
             android:id="@+id/task"
             android:layout_width="0dp"
